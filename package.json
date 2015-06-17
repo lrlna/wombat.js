@@ -1,0 +1,20 @@
+{
+  "name": "wombat",
+  "version": "0.0.1",
+  "description": "a command line module for all the wombats",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lrlna/wombat.js.git"
+  },
+  "author": "Irina Shestak",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bugs": {
+    "url": "https://github.com/lrlna/wombat.js/issues"
+  },
+  "bin": {
+    "wombat": "index.js"
+  }
+}
