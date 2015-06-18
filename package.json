@@ -1,7 +1,7 @@
 {
-  "name": "wombat",
-  "version": "0.0.1",
-  "description": "a command line module for all the wombats",
+  "name": "wombatjs",
+  "version": "0.1.0",
+  "description": "wombats wombats wombats in CLI",
   "scripts": {},
   "repository": {
     "type": "git",
