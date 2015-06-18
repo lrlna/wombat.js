@@ -17,6 +17,9 @@
     "wombat": "index.js"
   },
   "dependencies": {
-    "minimist": "^1.1.1"
+    "cli-color": "^1.0.0",
+    "minimist": "^1.1.1",
+    "pat": "0.0.1",
+    "yargs": "^3.11.0"
   }
 }
