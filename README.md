@@ -32,5 +32,5 @@ npm install wombatjs
 
 Usage: 
 ```
-wombat why hello there stranger
+wombat hello I am a wombat 
 ```
