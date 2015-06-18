@@ -33,4 +33,9 @@ function concatArgvs (thoughts) {
     open: "<----(",
     close: ")---->"
   }
+  putThoughtTogether(lines, wombatThoughts);
+};
+
+function putThoughtTogether (lines, wombatThoughts) {
+  return lines.top + "\n" + lines.middle + "\n" + lines.open + wombatThoughts + close;
 };
