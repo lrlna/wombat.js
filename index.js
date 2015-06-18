@@ -13,14 +13,24 @@ var argv = require("yargs")
 if (argv.h) {
   require("yargs").showHelp();
 } else if (argv._.length){
-  displayWombat(argv);
+  displayWombat(argv._);
 } else if (!argv) {
   require("yargs").showHelp();
 }
 
-function displayWombat (meow) {
-  var filepath = path.join(__dirname, 'wombat.butts');
+function displayWombat (thoughts) {
+  var filepath = path.join(__dirname, "wombat.butts");
   var wombat = fs.readFileSync(filepath, "utf-8");
   console.log(wombat + "\n");
-  console.log(meow);
+  console.log(concatArgvs(thoughts));
+};
+
+function concatArgvs (thoughts) {
+  var wombatThoughts = thoughts.join(" ");
+  var lines = {
+    top: "/",
+    middle: "/", 
+    open: "<----(",
+    close: ")---->"
+  }
 };
