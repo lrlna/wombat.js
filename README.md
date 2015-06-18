@@ -1,6 +1,6 @@
 # wombat.js
 
-A command line of wombat sayings.
+A command line of wombat sayings, made with a love for wombats. 
 ```
                        ,.--""--.._
                      ."     .'      `-.
