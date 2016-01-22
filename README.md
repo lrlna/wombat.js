@@ -27,7 +27,7 @@ A command line of wombat sayings, made with a love for wombats.
 
 Install with:
 ```
-npm install wombatjs
+npm install -g wombatjs
 ```
 
 Usage: 
